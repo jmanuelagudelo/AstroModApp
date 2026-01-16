@@ -1,26 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import RelatividadGeneral from "./pages/Relatividad"
+import Estelar from "./pages/Estelar"
+import Cuantica from "./pages/Cuantica"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Astro Moderna App</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
+    <BrowserRouter basename="/AstroModApp">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/relatividad-especial" element={<RelatividadGeneral />} />
+        <Route path="/astrofisica-estelar" element={<Estelar/>}/>
+        <Route path="/mecanica-cuantica" element={<Cuantica/>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

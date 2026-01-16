@@ -1,16 +1,31 @@
-# React + Vite
+# 🌌 AstroMod App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a **AstroMod**! Una plataforma educativa inspirada en la metodología de Duolingo, diseñada para acercar los conceptos complejos de la astrofísica moderna a todo el mundo de una manera interactiva y sencilla.
 
-Currently, two official plugins are available:
+Este proyecto ha sido desarrollado como una herramienta de divulgación para el curso de **Astrofísica Moderna**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 ¿Qué aprenderás?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La aplicación está estructurada en lecciones progresivas que cubren los pilares del universo contemporáneo:
 
-## Expanding the ESLint configuration
+* **Estelar Astrophysics:** El ciclo de vida de las estrellas, desde las protoestrellas hasta los remanentes estelares.
+* **Relativity:** Una introducción a la relatividad especial y general para entender cómo se curva el tejido del espaciotiempo.
+* **Quantum Mechanics:** Los fundamentos del mundo subatómico y su papel crucial en los fenómenos astronómicos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎮 Cómo jugar/aprender
+
+No requiere instalación. Puedes acceder directamente desde el navegador en cualquier dispositivo:
+
+🔗 **[Acceder a AstroMod App](https://jmanuelagudelo.github.io/AstroModApp/)**
+
+---
+
+## ✍️ Autor
+
+Proyecto creado por **J. Manuel Agudelo**. 
+
+Espero que disfrutes las lecciones y logres completarlas todas. ¡El universo te espera! 🔭

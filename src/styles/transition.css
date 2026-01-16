@@ -1,0 +1,15 @@
+.warp-container {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 100vh;
+  background: white;
+}
