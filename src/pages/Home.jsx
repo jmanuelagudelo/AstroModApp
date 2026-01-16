@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import QuantumButton from "../components/quantumbutton.jsx";
 import RelativityButton from "../components/relativitybutton.jsx";
 import StelarButton from "../components/stelarbutton.jsx";
+=======
+//import QuantumButton from "../components/quantumbutton.jsx";
+import RelativityButton from "../components/relativitybutton.jsx";
+//import StelarButton from "../components/stelarbutton.jsx";
+>>>>>>> refs/remotes/origin/main
 import "../styles/home.css";
 
 function Home() {
@@ -20,6 +26,7 @@ function Home() {
         >
           <p className="text-center">Introducción a la relatividad especial</p>
         </RelativityButton>
+<<<<<<< HEAD
 
         <StelarButton
           title="Astrofísica Estelar"
@@ -31,6 +38,8 @@ function Home() {
           route="/mecanica-cuantica"
         >
         </QuantumButton>
+=======
+>>>>>>> refs/remotes/origin/main
       </div>
       </div> 
     </div>

@@ -1,13 +1,23 @@
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
+=======
+import { motion } from "motion/react";
+>>>>>>> refs/remotes/origin/main
 import Lottie from "lottie-react";
 import Rocket from "../assets/rocketv2.json";
 
 export default function RelativityButton() {
+<<<<<<< HEAD
   const navigate = useNavigate();
 
   return (
     <motion.div
       onClick={() => navigate("/relatividad-especial")}
+=======
+
+  return (
+    <motion.div
+>>>>>>> refs/remotes/origin/main
       className="
         relative cursor-pointer
         bg-black text-white
@@ -15,7 +25,10 @@ export default function RelativityButton() {
         h-44
       "
     >
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
     <motion.div
     animate={{
         scaleX: [1, 1.5, 1],
