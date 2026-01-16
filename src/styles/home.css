@@ -1,0 +1,14 @@
+.course-button {
+  padding: 30px 30px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.course-button:hover {
+  background-color: #1e40af;
+}
+
